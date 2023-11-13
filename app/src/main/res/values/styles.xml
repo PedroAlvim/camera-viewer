@@ -1,0 +1,15 @@
+<resources>
+    <style name="FullScreenTheme" parent="Theme.AppCompat">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="fab_camera_viewer">
+        <item name="backgroundTint">@color/fab_colors</item>
+        <item name="tint">@color/fab_text_color</item>
+    </style>
+</resources>
